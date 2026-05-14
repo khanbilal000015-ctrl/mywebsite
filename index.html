@@ -4,11 +4,277 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THIS IS MY FIRST WEBSITE</title>
-    <link rel="stylesheet" href="html.css">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/1051/1051277.png" type="image/x-icon">
 </head>
 </head>
 <body style="background-color: blue;">
+    <style>
+  h1{
+
+  margin: 0%;
+  padding: 0%;
+}
+
+.element {
+  /* Firefox */
+  scrollbar-width: none; 
+  
+  /* IE and Edge */
+  -ms-overflow-style: none; 
+}
+
+/* Chrome, Safari, and Opera */
+.element::-webkit-scrollbar {
+  display: none;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* TOP BLACK NAVBAR */
+.top-bar{
+    background:black;
+    height:35px;
+
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+
+    padding-right:25px;
+}
+
+.top-bar a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    margin-left:18px;
+}
+
+.top-bar a:hover{
+    color:#4da3ff;
+}
+
+/* MAIN XP HEADER */
+.xp-header{
+
+    background:linear-gradient(
+        to right,
+        #6d8de2,
+        #6887dc,
+        #5f82da
+    );
+
+    height:85px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 15px;
+
+    border-bottom:3px solid white;
+}
+
+/* LEFT SIDE */
+.logo-section{
+    display:flex;
+    align-items:center;
+}
+
+/* Fake Windows Logo */
+.windows-logo{
+    width:45px;
+    height:45px;
+
+    background:
+    linear-gradient(45deg,#ff6600 50%, transparent 50%),
+    linear-gradient(-45deg,#00a2ff 50%, transparent 50%),
+    linear-gradient(45deg,#7ed321 50%, transparent 50%),
+    linear-gradient(-45deg,#ffd800 50%, transparent 50%);
+
+    background-size:50% 50%;
+    background-position:
+    top left,
+    top right,
+    bottom left,
+    bottom right;
+
+    background-repeat:no-repeat;
+
+    transform:skew(-10deg);
+
+    margin-right:15px;
+}
+
+/* Windows Text */
+.windows-text{
+    color:white;
+    line-height:0.9;
+}
+
+.windows-text .microsoft{
+    font-size:16px;
+}
+
+.windows-text .windows{
+    font-size:34px;
+    font-weight:bold;
+}
+
+.windows-text .xp{
+    color:#ff6b00;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* RIGHT MICROSOFT */
+.right-text{
+    color:white;
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    opacity:0.9;
+}
+
+/* BOTTOM BAR */
+.bottom-bar{
+    background:#5f82da;
+    color:white;
+
+    padding:8px 15px;
+
+    font-size:15px;
+    font-weight:bold;
+
+    border-top:1px solid rgba(255,255,255,0.3);
+}
+
+.img{
+
+
+/* TOP BLACK NAVBAR */
+.top-bar{
+    background:black;
+    height:35px;
+
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+
+    padding-right:25px;
+}
+
+.top-bar a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    margin-left:18px;
+}
+
+.top-bar a:hover{
+    color:#4da3ff;
+}
+
+/* MAIN XP HEADER */
+.xp-header{
+
+    background:linear-gradient(
+        to right,
+        #6d8de2,
+        #6887dc,
+        #5f82da
+    );
+
+    height:85px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 15px;
+
+    border-bottom:3px solid white;
+}
+
+/* LEFT SIDE */
+.logo-section{
+    display:flex;
+    align-items:center;
+}
+
+/* Fake Windows Logo */
+.windows-logo{
+    width:45px;
+    height:45px;
+
+    background:
+    linear-gradient(45deg,#ff6600 50%, transparent 50%),
+    linear-gradient(-45deg,#00a2ff 50%, transparent 50%),
+    linear-gradient(45deg,#7ed321 50%, transparent 50%),
+    linear-gradient(-45deg,#ffd800 50%, transparent 50%);
+
+    background-size:50% 50%;
+    background-position:
+    top left,
+    top right,
+    bottom left,
+    bottom right;
+
+    background-repeat:no-repeat;
+
+    transform:skew(-10deg);
+
+    margin-right:15px;
+}
+
+/* Windows Text */
+.windows-text{
+    color:white;
+    line-height:0.9;
+}
+
+.windows-text .microsoft{
+    font-size:16px;
+}
+
+.windows-text .windows{
+    font-size:34px;
+    font-weight:bold;
+}
+
+.windows-text .xp{
+    color:#ff6b00;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* RIGHT MICROSOFT */
+.right-text{
+    color:white;
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    opacity:0.9;
+}
+
+/* BOTTOM BAR */
+.bottom-bar{
+    background:#5f82da;
+    color:white;
+
+    padding:8px 15px;
+
+    font-size:15px;
+    font-weight:bold;
+
+    border-top:1px solid rgba(255,255,255,0.3);
+}
+}
+</style>
  <div style="background-color:rgb(22, 22, 82); padding:1px; margin: fit; text-align: center;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Unofficial_fan_made_Windows_XP_logo_variant.svg/1280px-Unofficial_fan_made_Windows_XP_logo_variant.svg.png" style="margin-left: auto; float: left;"" height="30xp";>
        <h1 style="text-align: center; color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">THIS IS MY FIRST WEBSITE</h1></div>
